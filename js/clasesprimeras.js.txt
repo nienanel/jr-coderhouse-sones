@@ -1,0 +1,513 @@
+// let miTexto1 = "hola"
+// let miTexto2 = " como estas";
+
+// let textoFinal;
+
+// textoFinal = miTexto1 + miTexto2;
+
+
+// console.log (textoFinal)
+// console.log ("el tipo de dato es:" + typeof textoFinal)
+
+
+// let x = 3
+// let y = 100
+// let resultado = x * y
+// console.log ( "resultado de resto:" + resultado)
+
+/// pedir info al usuario
+
+// let valor = prompt ("soy un titan de la vida")
+
+
+///alert 
+/// mostramos un mensaje en una ventana en la pagina
+
+// alert(" no sos gil " + valor)
+
+// let valor1;
+// let valor2;
+// let resultadosuma;
+// valor1 = prompt ("hola ingrese el primer valor")
+// valor2 = prompt ("ingrese el 2do valor");
+
+
+// valor1 = parseFloat (valor1); ///piso el valor
+// valor2 = parseFloat (valor2);
+
+// resultadosuma = valor1 + valor2;
+// alert ("el resultado es " + resultadosuma)
+
+/// convertir los valores a number o de lo contrario el promp me va devolver siempre string
+
+
+// let unNumero = 5
+
+// if (unNumero == 5) {
+//     console.log("ves el mensaje")
+// }
+
+// if (unNumeo == 6) {
+//     console.log("no ves este mensaje")
+// }
+
+// let unColor = "rojo"
+// if (uncolor == "rojo") {
+//     console.log("el color es rojo")
+// } else {
+//     //la introduccion se interpreta cuando Uncolor no es "rojo"
+//     console.log("el color no es rojo")
+// }
+
+
+// let nombreUsuario = prompt ("ingresar nombre")
+
+// if (nombreUsuario == "") {
+//     alert ("no ingresaste nada")
+// }
+// else {
+//     alert ("nombre ingresado correctamente " + nombreUsuario)
+// }
+
+// let precio = 100.5;
+
+// if (precio < 50) {
+//     alert ("precio es menor a 50")
+// }
+// else if (precio < 100) {
+//     alert ("precio menor a 100")
+// }
+
+// else {
+//     alert ("precio mayor a 100")
+// }
+
+
+// validacines de inputs
+//
+// let nombreIngresado = prompt("Ingresar nombre")
+// let apellidoIngresado = prompt("ingresar apellido")
+
+// if ((nombreIngresado != "") && (apellidoIngresado != "")) {
+//     alert("nombre:" + nombreIngresado + "apellido: " + apellidoIngresado)
+// } else {
+//     alert("error:ingresar nombre y apellido")
+// }
+
+// let nombreIngresado = prompt("ingresar ema")
+// if ((nombreIngresado == "ema") || (nombreIngresado == "emanuel")) {
+//     alert("correctoooooooooo")
+// } else {
+//     alert("incrrecoooooo")
+// }
+
+// let nombreIngresado = prompt ("ingresar nombre")
+
+// if ((nombreIngresado !="") && ((nombreIngresado == "EMA") || (nombreIngresado == "ema"))) {
+//     alert ("hola ñeñañel!!!!")
+// } else {
+//     alert ("no sos un ñeñañel")
+// }
+
+
+
+//Funcion que cambia el color de los enlaces a naranja al pasar por encima
+
+// document.getElementById("demo1").addEventListener("mouseover", porencima);
+// document.getElementById("demo1").addEventListener("mouseout", alquitar);
+// document.getElementById("demo").addEventListener("mouseover", porencima);
+// document.getElementById("demo").addEventListener("mouseout", alquitar);
+// document.getElementById("demo2").addEventListener("mouseover", porencima);
+// document.getElementById("demo2").addEventListener("mouseout", alquitar);
+// document.getElementById("demo3").addEventListener("mouseover", porencima);
+// document.getElementById("demo3").addEventListener("mouseout", alquitar);
+
+
+
+
+// function porencima() {
+
+//     document.getElementById("demo1").innerHTML = "nueva partida";
+//     document.getElementById("demo").innerHTML = "opciones";
+//     document.getElementById("demo2").innerHTML = "enciclopedia";
+//     document.getElementById("demo3").innerHTML = "contacto";
+// }
+
+// function alquitar() {
+
+//     document.getElementById("demo1").innerHTML = "ନୂତନ ଖେଳ";
+//     document.getElementById("demo").innerHTML = "ବିକଳ୍ପଗୁଡ଼ିକ";
+//     document.getElementById("demo2").innerHTML = "ଏନସାଇକ୍ଲୋପିଡ଼ିଆ";
+//     document.getElementById("demo3").innerHTML = "ଯୋଗାଯୋଗ କରନ୍ତୁ |";
+
+// }
+
+
+// let a 
+// let b 
+
+// a = 7
+// b = 9
+
+// if ((a < b ) && (a !=3)) {
+//     console.log ("a s menor a b y ademas es distinto de 3")
+// }
+
+///bucle multipilcar
+///
+
+// let ingresarNumero = parseInt (prompt("ingresar numero"));
+
+// for (let i = 1; i <= 10; i++) {
+//     let resultado = ingresarNumero * i ;
+//     alert (ingresarNumero + " x "+ i + " ="+ resultado)
+// }
+
+// ejemplo for
+///
+
+// for (let i=0; i<10; i++){
+//     alert("saludo #" + i);
+// }
+
+
+
+
+///ejemplo aplicado do...while
+
+///se solicita una entrada y se detiene cuando no es un numero
+
+// let numero = 0
+// do {
+//     //repetimos con do..while mientras el usuario ingresa un n°
+//     numero = prompt ("ingresar numero")
+//     console.log (numero)
+//     ///si el parseo no resulta un numero se interrumpe el bucle
+// }while (parseInt (numero))
+
+
+//ejemplo de switch
+///
+
+// let entrada = parseInt(prompt("ingresar un nombre"));
+// //repetimos hasta que se ingresa esc
+// while(entrada != "esc") {
+//     switch (entrada) {
+//         case "ana":
+//             alert("hola ana")
+//             break;
+//         case "juan":
+//             alert("hola juan")
+//             break
+//         default:
+//             alert("quien sos")
+//             break;
+//     }
+//     entrada = prompt("ingresar un nombre gil");
+// }
+
+
+/// clase 3
+///
+///
+
+
+///calculadora
+
+//entrada de datos
+
+// let altura = parseFloat(prompt("ingrese su altura"));
+// let peso = parseFloat(prompt("ingrese su peso"));
+
+// //proceso de daros
+
+// let imc = peso / (altura * altura);
+
+// //validacion
+
+// if (imc < 18.5) {
+//     let mensaje = "peso inferior al normal"
+// } else if (imc >= 18.5 && imc <= 24.9) {
+//     mensaje = "normal"
+// } else if (imc >= 25 && imc <= 29.5) {
+//     mensaje = "obeso"
+// }
+
+// // salida de datos
+
+// alert("tu imc es; " + imc + "%")
+// alert("tu condicion de salud es; " + mensaje);
+
+
+
+// algoritmo de prueba
+// 
+
+// let valor_maximo = parseFloat(prompt("ingresar el limite maximo de tarjeta"))
+// let salida = "";
+// let gastos = 0
+// let detalle = ""
+// let valor;
+
+// while (gastos <= valor_maximo) {
+//     detalle = prompt("ingrese gasto")
+
+//     if (detalle.toUpperCase() == "ESC") {
+//         break;
+//     }
+
+
+//     valor = parseFloat(prompt("valor del gasto"))
+//     salida += detalle + "  $" + valor;
+//     gastos += valor;
+// }
+
+// alert("resumen de tarjeta: " + salida )
+// alert("total: " + gastos)
+
+
+// let edad = parseInt(prompt("edad"))
+// let anos = 365
+// let dias;
+
+// dias = edad * anos
+
+// alert("edad en dias " + dias)
+
+
+/// sumamos dos numeros a una variable declarada anteriormente
+
+// let resultado = 0;
+
+// function sumar (primernumero, segundonumero) {
+//     resultado = primernumero + segundonumero
+// }
+// function mostrar(mensaje) {
+//     console.log(mensaje)
+// }
+
+// sumar(6,3);sumar(100,200)
+// mostrar(resultado);
+
+///pero las funciones pueden generar un valor de retorno con la palabra return
+
+// function sumar(primerNumero, segundoNumero) {
+//     return primerNumero + segundoNumero;
+// }
+// let resultado = sumar(5,8);
+
+
+// /calculadora
+
+// function calculadora(primerNumero, segundoNumero, operacion) {
+
+//     let resultado = 0;
+
+//     switch (operacion) {
+
+//         case "+":
+//             resultado = valor1 + valor2;
+//             break;
+//         case "-":
+//             return primerNumero - segundoNumero;
+//             break;
+//         case "*": primerNumero * segundoNumero;
+//             break
+//         case "/": primerNumero / segundoNumero;
+//             break
+//         default:
+//             return 0; /// no va el return y dsp el brack. la funcion ya se da porr finalizada con el retum
+//             break
+//     }
+//     return resultado;
+// }
+// console.log(calculadora(10, 5, "*"));
+
+
+///funciones anonimas
+
+// const suma = function (a, b) { return a + b}
+// const resta = function (a, b) { return a - b}
+
+// console.log ( suma(15,20) )
+// console.log (resta(15,5) )
+
+// const suma = (a, b) => { return a + b}
+// const resta = (a, b) => a - b /// si es una funcion de una sola linea con retorno podemos evitar escribir el cuerpo
+
+///ejemplo aplicado a calcular precio
+
+// const suma = (a,b) => a + b
+// const resta = (a, b) => a - b
+
+// ///si una funcion es una sola linea con un retorno y un parametro, no es necesario
+// // escribir ()
+
+// const iva = x => x * 0.21
+// let precioProducto = 500
+// let descuento = 50
+// /// calculo el precioProducto + iva - descuento
+
+// let nuevoPrecio = resta(suma(precioProducto, iva(precioProducto)), descuento)
+// console.log (nuevoPrecio)
+
+
+
+
+///funcion sin parametros
+
+// function saludar ()
+// {
+//     const nombre = prompt("hola como estas");
+//     alert("hola" +  nombre);
+// }
+
+///utilizar el modulo o funcion
+///llaamada a la funcion
+// saludar()
+
+
+
+///funcion con parametros
+
+// function suma2Valores(valor1, valor2)
+// {
+//     const resultado = valor1 + valor2;
+
+//     return resultado; ///retorna el valor que contiene la constante
+
+// }
+
+// let resultado;
+
+///tomo el valor que me devuelve la funcion
+// resultado = suma2Valores(2,5);
+// console.log(resultado);
+
+
+////modulo con inputs del usuario
+
+// let valor1
+// let valor2
+// let total
+// valor1 = parseInt(prompt("ingrese valor 1"))
+// valor2 = parseInt(prompt("ingrese valor 2"))
+
+// total = suma2Valores(valor1,valor2)
+
+// alert("el resultado de la suma es; " + total)
+
+
+/*scoping*/
+
+// let var1 = 3
+// function hacerAlgo ()
+// {
+//     ///ambiente de la funcion hacer algo
+// let var2 = 5; ///forma parte del ambiente
+
+// console.log("var1 adentro de la funcion; " + var1)
+// console.log("var2 adentro de la funcion; " + var2)
+// var1 = 16
+
+// }
+// hacerAlgo()
+
+/// funciones impplicitas
+
+// const nombreFuncion = function() {
+//     ///intrucciones
+// }
+// ///no deberia ser una variable, por que una vez decclaarada. siempre con conts
+// let otraFuncion = function(valor1,valor2){
+//     //intrucciones
+// }
+
+// ///llamada
+// otraFuncion(2,3);
+
+
+// let edad = parseInt(prompt("Ingresa tu edad"));
+// let cuenta = 2023 - edad
+
+// if (cuenta >= 1981 && cuenta <= 1996) {
+
+//     alert(" sos claramente un milenial ")
+
+// } else if (cuenta >= 1997 && edad <= 2012) {
+
+//     alert("sos centenial")
+
+// } else {
+//     alert("no se puede determinar")
+// }
+
+// function aver()
+
+///calculo de puntos en un partido de basquet
+///funcion que hace el calculo
+
+
+
+
+
+
+
+
+
+
+
+
+///objetos!!
+
+
+// const unaPersonita = {
+// nombre: Pepepe, apellido: "lopez", edad: 22
+// }
+
+// const marolio1 = {
+//     precio: 25, marca: marolio
+// }
+
+// ///acceder a los atributos del objeto
+
+// ///operador punto
+
+// // unaPersonita.apellido = "sones" ///pisa el atributo anterior o solo muestra ese
+
+// // console.log(unaPersonita["edad"]) ///otra forma de llamar a un atributo, cuando son muchos y tengo que hacer un bucle
+
+// // ///depende lo que necesito uso uno o el otro
+
+// // const atributo = prompt("mostrar atributo")
+// // console.log(unaPersonita["atributos"]);
+
+
+// // ///constructores
+// // /// generan registros a partir de plantillas
+// // ///contruye objetos con ciertos atributos mas rapidamente (por ejemplo cargar muchos productos, con solo un objeto de productos, con el resto de los atributos compartidos)
+
+// // function persona(nombre, edad, calle, dni) {
+// //     this.nombre = nombre;
+// //     this.edad = edad;
+// //     this.calle = calle;
+// //     this.dni = dni;
+// // }
+
+// // const persona1 = new persona ("homero", 39, "av siempre viva", "33034126");       ///el "new" llama al constructor
+// // const persona2 = new persona ("marge", 39, "av siempre viva");                      ///datos de identificaion nunerio coomo strings
+
+// // ////
+
+
+// // function Usuario(nombreUsuario,contrasenia, nombre, apellido, edad ,telefono)
+// // {
+// //     this.nombreUsuario = nombreUsuario;
+// //     this.contrasenia = contrasenia;
+// //     this.apellido = apellido;
+// //     this.edad = edad;
+// //     this.telefono = telefono;
+// // }
+
+// // const unUsuario = new Usuario("pepe", "123") ///nuevo objeto con lo anterior menos la contraseña
+
